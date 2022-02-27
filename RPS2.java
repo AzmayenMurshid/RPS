@@ -231,7 +231,6 @@ public class RPS2 {
         System.out.println("You: " + playerScore + "    |    Computer: " + computerScore);
         if(playerScore > computerScore){ //If player score is greater than computer score
             System.out.println("You win!");
-            System.exit(0); //Exit the game
         }
         else if(playerScore < computerScore){ //If player score is less than computer score
             System.out.println("You lose!");
